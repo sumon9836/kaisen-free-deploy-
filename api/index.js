@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 
 const PORT = process.env.PORT || 5000;
-const API_BASE_URL = process.env.API_BASE_URL || 'http://ballast.proxy.rlwy.net:23161';
+const API_BASE_URL = process.env.API_BASE_URL || 'http://switchyard.proxy.rlwy.net:40599';
 
 // MIME types for static files
 const mimeTypes = {
